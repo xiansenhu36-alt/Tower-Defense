@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c4ba10ef1e30b4ca20ee4646d52462, type: 3}
+  m_Name: SlowTowerData
+  m_EditorClassIdentifier: Assembly-CSharp::TowerData
+  towerName: Slow Tower
+  prefab: {fileID: 3554900287554916347, guid: 63e1a8dc22b65ed4a96623bed2641087, type: 3}
+  cost: 70
+  attackRange: 8
+  fireRate: 1.2
+  damage: 10
+  projectileSpeed: 8
+  maxHealth: 120
+  effectType: 1
+  slowPercent: 0.4
+  slowDuration: 2
